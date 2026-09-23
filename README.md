@@ -1,4 +1,4 @@
-# Hi, I'm Mingrui Liu · 刘明瑞
+# Hi, I'm Mingrui Liew · 刘明瑞
 
 I enjoy turning flashes of ideas into things that actually work.
 
