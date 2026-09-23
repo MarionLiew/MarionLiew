@@ -1,25 +1,24 @@
-# Hi, I'm 刘明瑞 · Marion Liew
+# Hi, I'm Mingrui Liu · 刘明瑞
 
-Independent quant researcher and engineer. I build the systems I rely on daily: prediction-market research engines, global asset allocators, and cross-sectional value screeners that cover A-share, HK, and US equities.
+I build tools for quantitative research, AI-assisted workflows, and learning.
 
-I care about the parts of quant work that usually get hand-waved — non-synchronous closes, autocorrelation in cross-asset signals, honest backtests — and about agent tooling that ships something real.
+Most of my projects start as something I want to use myself: a backtester, a cross-market screener, an adaptive tutor, or an automation that removes repetitive work. I'd rather have a rough running system than a polished plan.
 
----
+## Selected projects
 
-### Featured work
-
-| Project | What it does |
+| Project | What it is |
 | --- | --- |
-| [**global-asset-allocator**](https://github.com/MarionLiew/global-asset-allocator) | Multi-layer regime backtest framework. Handles non-synchronous closes and autocorrelation with Dimson / Newey–West corrections instead of naive month-end alignment. |
-| [**value-screener**](https://github.com/MarionLiew/value-screener) | Cross-sectional value screening across A-share, HK, and US equities. |
-| [**investment_dashboard**](https://github.com/MarionLiew/investment_dashboard) | One dashboard for stocks, funds, and crypto. |
-| [**anki-tutor**](https://github.com/MarionLiew/anki-tutor) | An adaptive tutor that diagnoses your error, gives the smallest hint, and verifies transfer — not another flashcard deck. |
-| [**hermes-agent**](https://github.com/MarionLiew/hermes-agent) | The agent stack I run daily to manage workflows across machines. |
+| [global-asset-allocator](https://github.com/MarionLiew/global-asset-allocator) | Risk-parity-anchored global asset allocator. Multi-layer engine: a risk-parity core, a cross-sectional valuation/momentum tilt with hard bounds, and an execution layer that maps target weights to per-account funding amounts. |
+| [anki-tutor](https://github.com/MarionLiew/anki-tutor) | An adaptive tutor layered on Anki. One Concept per note; each due review gets a fresh question, a diagnosis of the error, the smallest useful hint, a retry, then a transfer check. Anki schedules (FSRS) — this teaches. |
+| [value-screener](https://github.com/MarionLiew/value-screener) | Cross-sectional value screening across A-share, HK, and US equities: winsorize, sector-neutralize, standardize, rank per market, output a shortlist. The cross-section engine runs; data providers are still work-in-progress. |
+| [wechat-autoreply](https://github.com/MarionLiew/wechat-autoreply) | Auto-reply for WeCom external-customer chats on macOS. Rules first, LLM-assisted fallback, a management UI, and handoff keywords for messages that need a person. |
 
-### Elsewhere
+## Current interests
 
-- Blog / notes: [marionliew.github.io](https://marionliew.github.io/)
+systematic investing · research methodology · AI agents · adaptive learning
 
----
+## Notes
 
-*Mostly quant, some games, occasionally an agent. Not a crypto guy — futures and equities.*
+[marionliew.github.io](https://marionliew.github.io/) — blog and notes
+
+Also tinkering with [minepixel](https://github.com/MarionLiew/minepixel), a small 2D P2P game built in Godot.
