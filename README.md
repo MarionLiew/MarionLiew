@@ -2,7 +2,7 @@
 
 I build tools for quantitative research, AI-assisted workflows, and learning.
 
-Most of my projects start as something I want to use myself: a backtester, a cross-market screener, an adaptive tutor, or an automation that removes repetitive work. I'd rather have a rough running system than a polished plan.
+Most of my projects start as a passing idea I don't leave alone until it runs — a backtester, a cross-market screener, an adaptive tutor, an automation that removes repetitive work. I'd rather have a rough working system than a polished plan.
 
 ## Selected projects
 
